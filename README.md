@@ -26,7 +26,7 @@ cd Operaciones-del-Algebra-Relacional
 ### **2. Construye y lanza los contenedores**
 
 ```bash
-docker-compose up --build
+docker-compose run --rm --service-ports app
 ```
 
 Una vez finalizada la construcción, la terminal te mostrará automáticamente el menú principal para comenzar a interactuar con la base de datos.
@@ -294,4 +294,5 @@ src/
 ## **👤 Autoría**
 
 Este proyecto fue desarrollado por **Luna Miguel Emmanuel**.
+
 
